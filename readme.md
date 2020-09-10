@@ -1,6 +1,6 @@
 ## @brixtol/eslint-config-brixtol
 
-This package includes the shareable ESLint configuration consumed by [Brixtol Textiles](https://www.brixtoltextiles.com). The config extends upon [standard](https://github.com/standard/eslint-config-standard).
+This package includes the shareable ESLint configuration consumed by [Brixtol Textiles](https://www.brixtoltextiles.com).
 
 ### Install
 
@@ -28,7 +28,7 @@ Extend the configuration with `package.json`
 
 ### License
 
-Licensed under [MIT](#LICENCE)
+[MIT](#LICENCE)
 
 ---
 
