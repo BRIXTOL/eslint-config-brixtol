@@ -1,6 +1,6 @@
 {
   "name": "@brixtol/eslint-config-brixtol",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ESLint configuration style guides for Brixtol Textiles",
   "author": "Νίκος Σαβίδης <nicos@brixtoltextiles.com>",
   "license": "MIT",
