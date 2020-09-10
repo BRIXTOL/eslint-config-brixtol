@@ -16,9 +16,10 @@ Extend the configuration with `package.json`
 
 ```json
 {
-"eslintConfig": {
-  "ignorePatterns": "*.html",
-  "extends": ["@brixtol/eslint-config-brixtol"]
+  "eslintConfig": {
+    "ignorePatterns": "*.html",
+    "extends": ["@brixtol/eslint-config-brixtol"]
+  }
 }
 ```
 
