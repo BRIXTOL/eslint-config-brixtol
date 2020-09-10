@@ -1,12 +1,6 @@
 ## @brixtol/eslint-config-brixtol
 
-This package includes the shareable ESLint configuration used by [Brixtol Textiles](https://www.brixtoltextiles.com). The config extends upon standard and is mainly configured for [Mithril](https://mithril.js.org/) (or HyperScript) related developments.
-
-- Ecma2020
-- Browser
-- ES6
-- Node
-- [Babel](https://github.com/babel/babel-eslint) ESLint.
+This package includes the shareable ESLint configuration used by [Brixtol Textiles](https://www.brixtoltextiles.com). The config extends upon standard and is mainly configured for internal developments.
 
 ### Install
 
@@ -18,17 +12,19 @@ pnpm i @brixtol/eslint-config-brixtol --save-dev
 
 ### Usage
 
-Extend the configuration in the directories `.eslintrc` file
+Extend the configuration with `package.json`
 
-```javascript
+```json
 {
-  'extends': [ 'brixtol']
+"eslintConfig": {
+  "ignorePatterns": "*.html",
+  "extends": ["@brixtol/eslint-config-brixtol"]
 }
 ```
 
 ### Related
 
-- [@brixtol/prettier-config-brixtol](https://github.com/brixtol/prettier-config-brixtol)
+- [@brixtol/prettier-config](https://github.com/brixtol/prettier-config)
 
 ### License
 

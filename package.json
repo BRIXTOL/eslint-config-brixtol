@@ -4,7 +4,7 @@
   "description": "ESLint configuration style guides for Brixtol Textiles",
   "author": "Νίκος Σαβίδης <nicos@brixtoltextiles.com>",
   "license": "MIT",
-  "main": "index.js",
+  "main": "eslint.js",
   "keywords": [
     "eslint",
     "eslintconfig",
