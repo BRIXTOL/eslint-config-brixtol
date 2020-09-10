@@ -28,7 +28,7 @@ Extend the configuration in the directories `.eslintrc` file
 
 ### Related
 
-- [@brixtol/prettier-config-brixtol](https://github.com/brixtol/currency-symbols)
+- [@brixtol/prettier-config-brixtol](https://github.com/brixtol/prettier-config-brixtol)
 
 ### License
 
