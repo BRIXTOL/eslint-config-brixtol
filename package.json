@@ -1,5 +1,5 @@
 {
-  "name": "@brixtol/eslint-config-brixtol",
+  "name": "@brixtol/eslint-config",
   "version": "1.0.0",
   "description": "ESLint configuration style guides for Brixtol Textiles",
   "author": "Νίκος Σαβίδης <nicos@brixtoltextiles.com>",
@@ -10,15 +10,14 @@
     "eslintconfig",
     "config",
     "brixtol",
-    "javascript",
     "styleguide"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/brixtol/eslint-config-brixtol"
+    "url": "https://github.com/brixtol/eslint-config"
   },
   "bugs": {
-    "url": "https://github.com/brixtol/eslint-config-brixtol"
+    "url": "https://github.com/brixtol/eslint-config/issues"
   },
   "engines": {
     "pnpm": ">=5"

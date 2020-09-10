@@ -1,13 +1,13 @@
 ## @brixtol/eslint-config-brixtol
 
-This package includes the shareable ESLint configuration used by [Brixtol Textiles](https://www.brixtoltextiles.com). The config extends upon standard and is mainly configured for internal developments.
+This package includes the shareable ESLint configuration consumed by [Brixtol Textiles](https://www.brixtoltextiles.com). The config extends upon [standard](https://github.com/standard/eslint-config-standard).
 
 ### Install
 
 [pnpm](https://pnpm.js.org/en/cli/install)
 
 ```cli
-pnpm i @brixtol/eslint-config-brixtol --save-dev
+pnpm i @brixtol/eslint-config --save-dev
 ```
 
 ### Usage
