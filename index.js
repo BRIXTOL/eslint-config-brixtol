@@ -2,7 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es6: true,
-    jest: false,
+    jest: false, // FUCK FACEBOOK
     node: true
   },
   extends: [
