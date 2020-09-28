@@ -1,10 +1,10 @@
 {
-  "name": "@brixtol/eslint-config",
+  "name": "@brixtol/eslint-config-javascript",
   "version": "1.0.0",
-  "description": "ESLint configuration style guides for Brixtol Textiles",
+  "description": "ESLint configuration JavaScript style guide for Brixtol Textiles",
   "author": "Νίκος Σαβίδης <nicos@brixtoltextiles.com>",
   "license": "MIT",
-  "main": "eslint.js",
+  "main": "index.js",
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -14,10 +14,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/brixtol/eslint-config"
+    "url": "https://github.com/brixtol/eslint-config-javascript"
   },
   "bugs": {
-    "url": "https://github.com/brixtol/eslint-config/issues"
+    "url": "https://github.com/brixtol/eslint-config-javascript/issues"
   },
   "engines": {
     "pnpm": ">=5"
