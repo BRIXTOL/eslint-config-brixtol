@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 module.exports = {
   env: {
     browser: true,
@@ -9,8 +11,14 @@ module.exports = {
     'standard'
   ],
   plugins: [
-    'babel'
+    'babel',
+    'import'
   ],
+  settings: {
+    'import/resolver': {
+      'babel-module': {}
+    }
+  },
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 2020,

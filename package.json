@@ -1,6 +1,6 @@
 {
   "name": "@brixtol/eslint-config-javascript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint configuration JavaScript style guide for Brixtol Textiles",
   "author": "Νίκος Σαβίδης <nicos@brixtoltextiles.com>",
   "license": "MIT",
@@ -27,18 +27,20 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.8.1",
-    "eslint-config-standard": "^14.1.1",
+    "eslint": "^7.13.0",
+    "eslint-config-standard": "^16.0.1",
+    "eslint-import-resolver-babel-module": "^5.2.0",
     "eslint-plugin-babel": "^5.3.1",
-    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-standard": "^4.1.0"
   },
   "peerDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.8.1",
     "eslint-config-standard": "^14.1.1",
+    "eslint-import-resolver-babel-module": "^5.2.0",
     "eslint-plugin-babel": "^5.3.1",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.1.0",
