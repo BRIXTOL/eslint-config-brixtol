@@ -38,6 +38,10 @@ module.exports = {
         variables: true
       }
     ],
+    'multiline-ternary': [
+      "error",
+      "always-multiline"
+    ],
     indent: [
       'error',
       2,
