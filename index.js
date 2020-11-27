@@ -40,7 +40,7 @@ module.exports = {
     ],
     'multiline-ternary': [
       "error",
-      "always-multiline"
+      "never"
     ],
     indent: [
       'error',
