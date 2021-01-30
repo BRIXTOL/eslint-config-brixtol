@@ -1,6 +1,6 @@
 {
   "name": "@brixtol/eslint-config-javascript",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "ESLint configuration JavaScript style guide for Brixtol Textiles",
   "author": "Νίκος Σαβίδης <nicos@brixtoltextiles.com>",
   "license": "MIT",
