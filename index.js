@@ -11,7 +11,7 @@ module.exports = {
     'standard'
   ],
   plugins: [
-    'babel',
+    '@babel',
     'import'
   ],
   settings: {
