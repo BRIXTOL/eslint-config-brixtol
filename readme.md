@@ -1,6 +1,6 @@
 ## @brixtol/eslint-config-javascript
 
-This package includes the shareable ESLint configuration consumed by [Brixtol Textiles](https://www.brixtoltextiles.com) on JavaScript projects. This configuration uses the [Babel](https://github.com/babel/babel-eslint).
+This package includes the shareable ESLint configuration consumed by [Brixtol Textiles](https://www.brixtoltextiles.com) on JavaScript projects. This configuration uses the [Babel](https://github.com/babel/babel/tree/main/eslint/babel-eslint-parser).
 
 ### Install
 
@@ -18,7 +18,8 @@ Extend the configuration with `package.json`
 {
   "eslintConfig": {
     "ignorePatterns": "*.html",
-    "extends": ["@brixtol/eslint-config-javascript"]
+    "extends": ["@brixtol/eslint-config-javascript"],
+    "rules": {}
   }
 }
 ```
@@ -27,6 +28,7 @@ Extend the configuration with `package.json`
 
 - [@brixtol/eslint-config-typescript](https://github.com/brixtol/eslint-config-typescript)
 - [@brixtol/prettier-config](https://github.com/brixtol/prettier-config)
+- [@brixtol/browserslist-config](https://github.com/brixtol/browserslist-config)
 
 ### License
 
