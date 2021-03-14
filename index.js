@@ -1,5 +1,4 @@
 // @ts-nocheck
-
 module.exports = {
   env: {
     browser: true,
@@ -22,7 +21,8 @@ module.exports = {
   parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 2020,
-    sourceType: 'module'
+    sourceType: 'module',
+    requireConfigFile: false
   },
   rules: {
     'no-undef': 'off',
