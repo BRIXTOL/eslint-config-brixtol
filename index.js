@@ -4,183 +4,149 @@ module.exports = {
     browser: true,
     es6: true,
     jest: false, // FUCK FACEBOOK
-    node: true
+    node: true,
   },
-  extends: [
-    'standard'
-  ],
-  plugins: [
-    '@babel',
-    'import'
-  ],
+  extends: ["standard"],
+  plugins: ["@babel", "import"],
   settings: {
-    'import/resolver': {
-      'babel-module': {}
-    }
+    "import/resolver": {
+      "babel-module": {},
+    },
   },
-  parser: '@babel/eslint-parser',
+  parser: "@babel/eslint-parser",
   parserOptions: {
     ecmaVersion: 2020,
-    sourceType: 'module',
-    requireConfigFile: false
+    sourceType: "module",
+    requireConfigFile: false,
   },
   rules: {
-    'no-undef': 'off',
-    'template-curly-spacing': [
-      'error',
-      'never'
-    ],
-    'no-use-before-define': [
-      'error',
+    "no-undef": "off",
+    "template-curly-spacing": ["error", "never"],
+    "no-use-before-define": [
+      "error",
       {
         functions: false,
         classes: true,
-        variables: true
-      }
+        variables: true,
+      },
     ],
-    'multiline-ternary': [
-      "error",
-      "never"
-    ],
+    "multiline-ternary": 0,
     indent: [
-      'error',
+      "error",
       2,
       {
         MemberExpression: 1,
         SwitchCase: 1,
-        ignoredNodes: [
-          'TemplateLiteral'
-        ]
-      }
+        ignoredNodes: ["TemplateLiteral"],
+      },
     ],
-    'implicit-arrow-linebreak': 'off',
-    'class-methods-use-this': 0,
+    "implicit-arrow-linebreak": "off",
+    "class-methods-use-this": 0,
     camelcase: 0,
-    'guard-for-in': 0,
+    "guard-for-in": 0,
     allowElseIf: 0,
-    'key-spacing': [
+    "key-spacing": [
       2,
       {
         singleLine: {
           beforeColon: false,
-          afterColon: true
-        }
-      }
+          afterColon: true,
+        },
+      },
     ],
-    'function-paren-newline': [
-      'error',
-      'consistent'
-    ],
-    'array-element-newline': [
-      'error',
-      'consistent'
-    ],
-    'array-bracket-newline': [
-      'error',
-      'consistent'
-    ],
-    'array-bracket-spacing': [
-      'error',
-      'always'
-    ],
-    'comma-dangle': [
-      'error',
-      'never'
-    ],
-    'comma-style': [
-      'error',
-      'last',
+    "function-paren-newline": ["error", "consistent"],
+    "array-element-newline": ["error", "consistent"],
+    "array-bracket-newline": ["error", "consistent"],
+    "array-bracket-spacing": ["error", "always"],
+    "comma-dangle": ["error", "never"],
+    "comma-style": [
+      "error",
+      "last",
       {
         exceptions: {
           ArrayExpression: true,
           ObjectExpression: true,
-          VariableDeclaration: true
-        }
-      }
+          VariableDeclaration: true,
+        },
+      },
     ],
-    'one-var': [
-      'error',
+    "one-var": [
+      "error",
       {
-        var: 'always',
-        let: 'never',
-        const: 'never'
-      }
+        var: "always",
+        let: "never",
+        const: "never",
+      },
     ],
-    'operator-linebreak': [
-      'error',
-      'after',
+    "operator-linebreak": [
+      "error",
+      "after",
       {
         overrides: {
-          '?': 'before',
-          ':': 'before'
-        }
-      }
+          "?": "before",
+          ":": "before",
+        },
+      },
     ],
-    'newline-per-chained-call': [
-      'error',
+    "newline-per-chained-call": [
+      "error",
       {
-        ignoreChainWithDepth: 4
-      }
+        ignoreChainWithDepth: 4,
+      },
     ],
-    'object-curly-spacing': [
-      'error',
-      'always'
-    ],
-    'object-curly-newline': [
-      'error',
+    "object-curly-spacing": ["error", "always"],
+    "object-curly-newline": [
+      "error",
       {
         ObjectExpression: {
           multiline: true,
           minProperties: 7,
-          consistent: true
+          consistent: true,
         },
         ObjectPattern: {
           multiline: true,
           minProperties: 7,
-          consistent: true
+          consistent: true,
         },
         ImportDeclaration: {
           multiline: true,
           minProperties: 15,
-          consistent: true
+          consistent: true,
         },
         ExportDeclaration: {
           multiline: false,
-          minProperties: 10
-        }
-      }
+          minProperties: 10,
+        },
+      },
     ],
-    'object-property-newline': [
-      'error',
+    "object-property-newline": [
+      "error",
       {
-        allowAllPropertiesOnSameLine: true
-      }
+        allowAllPropertiesOnSameLine: true,
+      },
     ],
-    'padded-blocks': [
+    "padded-blocks": [
       1,
       {
-        classes: 'always'
+        classes: "always",
       },
       {
-        allowSingleLineBlocks: true
-      }
+        allowSingleLineBlocks: true,
+      },
     ],
-    semi: [
-      'error',
-      'never'
-    ],
-    'padding-line-between-statements': [
-      'error',
+    semi: ["error", "never"],
+    "padding-line-between-statements": [
+      "error",
       {
-        blankLine: 'any',
-        prev: 'cjs-export',
-        next: '*'
+        blankLine: "any",
+        prev: "cjs-export",
+        next: "*",
       },
       {
-        blankLine: 'any',
-        prev: 'if',
-        next: 'block-like'
-      }
-    ]
-  }
-}
+        blankLine: "any",
+        prev: "if",
+        next: "block-like",
+      },
+    ],
+  },
+};
