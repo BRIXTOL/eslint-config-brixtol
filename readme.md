@@ -24,6 +24,14 @@ Extend the configuration with `package.json`
 }
 ```
 
+### Troubleshoot
+
+If the shareable config is being consumed outside the brixtol monorepo then you may need install deps into that project:
+
+```cli
+pnpm i @babel/eslint-parser @babel/eslint-plugin eslint eslint-config-standard eslint-import-resolver-babel-module eslint-plugin-import eslint-plugin-node eslint-plugin-promise --save-dev
+```
+
 ### Related
 
 - [@brixtol/eslint-config-typescript](https://github.com/brixtol/eslint-config-typescript)
