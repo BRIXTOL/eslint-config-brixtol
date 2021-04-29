@@ -2,6 +2,10 @@
 
 Changelog was added at version 2.0.3 for internal reference.
 
+### 2.1.1 | 29/04/2021
+
+- Include `eslint-import-resolver-babel-module`and version bump
+
 ### 2.1.0 | 08/04/2021
 
 - Updated Readme
